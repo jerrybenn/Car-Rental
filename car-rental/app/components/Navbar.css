@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  color: #000000;
+}
+
+.logo a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex; /* This ensures that the links are in a straight line */
+  align-items: center; /* Vertically center the links */
+}
+
+.navLinks a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.navButton{
+  padding-left: 20px;
+}
