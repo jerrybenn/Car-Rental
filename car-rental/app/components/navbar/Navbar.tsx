@@ -1,7 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import './Navbar.css'; // Importing the CSS file
-import CustomButton from './CustomButton'; // Import the CustomButton component
+import CustomButton from '../CustomButton';
+//import CustomButton from './CustomButton'; // Import the CustomButton component
 
 const Navbar = () => {
   return (
