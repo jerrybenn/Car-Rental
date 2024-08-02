@@ -7,10 +7,29 @@
   .hero-text {
     flex: 1; /* Adjusts the width based on content */
     margin-right: 20px; /* Adds some space between the text and image */
-  }
+    font-size: 72px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    
+    }
+
+    .hero-fonts{
+    padding: 50px;
+    padding-left: 40px;
+    }
+
+    .hero-subtext{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #333333
+    }
   
   .hero-image {
     flex: 1; /* Adjusts the width based on content */
     /* Add your styling for the image here */
   }
+  
+  
   
